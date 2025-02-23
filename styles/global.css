@@ -3,11 +3,6 @@
 *::after {
   box-sizing: border-box;
 }
-
-
-
-
-
 body {
   position:relative;
 }
@@ -22,7 +17,6 @@ height: 293px;
 margin: 0 auto;
 font-family: Raleway, sans-serif;
 }
-
 .header_logo  {
   display: block;
   width: 148px;
@@ -91,14 +85,13 @@ background-size: auto;
   left: 50px;
   font-weight: bold;
   font-size: 20px;
-  font-family: ;
+  font-family: Railway;
   text-transform: uppercase;
   z-index: 2;
+}
 
 .accept-span {
   display: block;
-}
-
 }
 .cover_description {
   width: 1000px;
@@ -119,6 +112,8 @@ background-size: auto;
   text-align: left;
   z-index: 2;
 }
+
+
 .bet-button {
   padding: 0;
   border: none;
@@ -130,6 +125,7 @@ background-size: auto;
   border: solid 1px;
   border-radius: 4px;
   z-index: 2;
+}
 
 .lots {
  width: 1052px;
@@ -180,13 +176,14 @@ position:relative;
 z-index:1;
 }
 
-.card_type_book{
+.card_type_book {
   background-image: url(../images/cover-lot-02.jpg;);
   width: 334px;
   height:596px;
   position:relative;
   z-index:1
 }
+
 .card_type_picture {
   background-image: url(../images/cover-lot-03.jpg;);
   width: 334px;
@@ -300,6 +297,7 @@ margin-top: 150px;
   "footer_adress footer_menu-list footer_social-icons"
   ". . .";
 }
+
 .footer_address {
 width: 264.57px;
 height: 98px;
