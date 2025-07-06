@@ -97,6 +97,7 @@ justify-content: center;
 display: flex;
 margin:0 auto;
 margin-left: 128px;
+margin-top: 0px; 
 }
 
 .overlay {
@@ -199,7 +200,7 @@ align-self: center;
 .lots {
 max-width: 1052px;
 margin:0 auto;
-margin-left: 135px;
+margin-left: 140px;
 }
 
 .lots_heading {
@@ -360,7 +361,7 @@ grid-template-columns: 1fr 2fr;
 padding-left: 3px;
 margin:0 auto;
 margin-left: 135px;
-margin-right: 
+margin-right: 50px;
 }
 
 .about_column {
