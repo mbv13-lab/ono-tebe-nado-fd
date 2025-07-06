@@ -496,12 +496,12 @@ text-align:center;
 text-underline-offset: 4px;
 }
 
-.footer__menu-link_active {
+.footer_menu-link_active {
 list-style-type: none;
 line-height: 1.2em;
 }
 
-.footer__social-list {
+.footer_social-list {
 width: 240px;
 min-height: 48px;
 top: 1px;
