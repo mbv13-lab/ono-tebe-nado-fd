@@ -5,7 +5,7 @@ grid-template-columns: 1fr min-content 1fr;
 align-items: center;
 padding: 5px 70px 110px 50px;
 margin:0 auto;
-margin-left: 150px;
+margin-left: 120px;
 }
 
 .header_menu {
@@ -98,6 +98,7 @@ z-index: 0;
 justify-content: center;
 display: flex;
 margin:0 auto;
+margin-left:120px
 }
 
 .overlay {
