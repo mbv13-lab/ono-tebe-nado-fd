@@ -430,7 +430,6 @@ padding-bottom: 20px;
 
 .footer {
 max-width: 1100px;
-min-height: 180px;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 align-items: center;
@@ -444,8 +443,6 @@ margin:0 auto;
 }
 
 .footer_address {
-width: 264.5px;
-min-height: 98px;
 left: 50px;
 border-width: 1px;
 padding-top: 15px;
@@ -490,8 +487,8 @@ font-weight: 400;
 font-size: 18px;
 line-height: 100%;
 letter-spacing: 0px;
-display:inline-block;
-text-align:center;
+display: inline-block;
+text-align: center;
 text-underline-offset: 4px;
 }
 
@@ -501,8 +498,6 @@ line-height: 1.2em;
 }
 
 .footer_social-list {
-top: 1px;
-left: 810px;
 gap: 48px;
 display: flex;
 flex-direction: row;
