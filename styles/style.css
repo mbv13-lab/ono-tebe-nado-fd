@@ -4,6 +4,7 @@ display: grid;
 grid-template-columns: 1fr min-content 1fr;
 align-items: center;
 padding: 53px 50px 90px 50px;
+margin:0 auto;
 }
 
 .header_menu {
@@ -95,7 +96,7 @@ background-position: center;
 z-index: 0;
 justify-content: center;
 display: flex;
-margin-top: 0;
+margin:0 auto;
 }
 
 .overlay {
@@ -196,7 +197,8 @@ align-self: center;
 /* Лоты */
 
 .lots {
-width: 1052px;
+max-width: 1052px;
+margin:0 auto;
 }
 
 .lots_heading {
@@ -358,6 +360,7 @@ margin-right: 44px;
 display: grid;
 grid-template-columns: 1fr 2fr;
 padding-left: 3px;
+margin:0 auto;
 }
 
 .about_column {
@@ -438,6 +441,7 @@ padding-left: 48px;
 padding-right: 50px;
 padding-top: 50px;
 padding-bottom: 10px;
+margin:0 auto;
 }
 
 .footer_address {
