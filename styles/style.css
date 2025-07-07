@@ -365,19 +365,17 @@ text-underline-offset: 4px;
 
 .about {
 max-width: 1100px;
-margin-top: 60px;
-margin-left: 70px;
-margin-right: 44px;
 display: grid;
 grid-template-columns: 1fr 2fr;
 padding-left: 3px;
 margin:0 auto;
-margin-left: 135px;
-margin-right: 50px;
 }
 
 .about_column {
 width: 693px;
+margin-top: 60px;
+margin-left: 80px;
+margin-right: 44px;
 }
 
 .about_logo {
@@ -450,7 +448,7 @@ padding-left: 48px;
 padding-right: 50px;
 padding-top: 50px;
 padding-bottom: 10px;
-margin:0 auto;
+margin: 325px auto 91px;
 }
 
 .footer_address {
@@ -523,6 +521,5 @@ flex-direction: row;
 justify-content: space-between;
 justify-self: end;
 margin: auto;
-margin-right: 0px;
 margin-top: 20px;
 }
