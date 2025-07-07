@@ -134,13 +134,24 @@ letter-spacing: 30px;
 }
 
 .aligned-text_center {
+font-family: Raleway, sans-serif;
+font-weight: 700;
+font-size: 100px;
 text-align: start;
+line-height: 115%;
+text-transform: uppercase;
 margin-top: 18px;
 margin-left: 300px;
 padding-left: 30px;
 }
 
 .aligned-text_right {
+font-family: Raleway, sans-serif;
+font-weight: 700;
+font-size: 100px;
+text-align: start;
+line-height: 115%;
+text-transform: uppercase;
 text-align: right;
 white-space: nowrap;
 margin-top: 20px;
