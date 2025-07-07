@@ -87,7 +87,6 @@ font-style: normal;
 
 .cover {
 max-width: 1100px;
-min-height: 757px;
 position: relative; 
 background: url("../images/cover.jpg");
 background-size: cover;
@@ -390,6 +389,7 @@ align-items: center;
 justify-content: center;
 pading-top: 35px;
 pading-left: 47px;
+margin-top: 70px;
 }
 
 .about_logo-image {
@@ -406,8 +406,7 @@ font-size: 40px;
 line-height: 100%;
 letter-spacing: 0px;
 text-transform: uppercase;
-padding-top: 133px;
-padding-left: 359pxpx;
+margin: 0 auto;
 }
 
 .about_text-paragraph_upper {
