@@ -123,7 +123,7 @@ margin-left: 3px;
 font-weight: 700;
 }
 
-.aligned-text {
+.aligned-text_left {
 font-family: Raleway, sans-serif;
 font-weight: 700;
 font-size: 100px;
@@ -172,7 +172,6 @@ color: white;
 word-spacing: 13px;
 flex-direction: row;
 }
-
 
 .bet-button {
 width: 256px;
