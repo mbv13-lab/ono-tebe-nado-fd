@@ -395,8 +395,8 @@ height: 114px;
 .about_column { 
 width: 693px;
 min-height: 449px; 
-padding-top: 133px; 
-padding-left: 359px; 
+margin-top: 133px; 
+margin-left: 359px; 
 }
 
 .about_title_text { 
