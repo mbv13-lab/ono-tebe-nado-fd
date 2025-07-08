@@ -23,7 +23,7 @@ text-transform: lowercase;
 text-underline-offset: 4px;
 text-decoration-thickness: 1px;
 margin-bottom: 6px;
-margin-left: 0px;
+margin-left: 6px;
 margin-top: 43px;
 white-space: nowrap;
 gap: 31px;
@@ -97,6 +97,7 @@ justify-content: center;
 display: flex;
 margin:0 auto;
 margin-left: 128px;
+
 }
 
 .overlay {
@@ -236,6 +237,7 @@ list-style: none;
 gap: 25px;
 flex-grow: 1;
 justify-content: space-evenly;
+margin-top: 27px;
 }
 
 .lots.overlay {
@@ -380,10 +382,9 @@ top: 133px;
 left: 359px; 
 }
 
-
 .about_logo { 
 width: 240px; 
-min-height: 240px; 
+height: 240px; 
 display: flex; 
 background-color: black; 
 clip-path: circle(50%); 
@@ -406,23 +407,27 @@ font-family: Raleway;
 font-weight: 700; 
 font-size: 40px; 
 line-height: 100%; 
-letter-spacing: 0px; 
+letter-spacing: 0px;
 text-transform: uppercase; 
 padding-top: 320px; 
 padding-bottom: 100px; 
-padding-left: 0px; 
-margin-right: auto; 
+padding-left: 3px; 
+padding-right: 80px;
 } 
 
-
-
-.about_text-paragraph_upper { 
-width: 693px; 
+.about_text-paragraph_upper {
+width: 693px;
 height: 168px;
-color: #000000; 
-padding-bottom: 20px; 
-padding-top: 12px; 
-} 
+top: 294px;
+font-family: Raleway;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0px;
+color: #000000;
+padding-bottom: 20px;
+padding-top: 12px;
+}
 
 .about_text-paragraph_lower {
 width: 688px;
