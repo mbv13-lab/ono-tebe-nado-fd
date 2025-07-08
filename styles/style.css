@@ -396,20 +396,19 @@ height: 114px;
 width: 693px;
 min-height: 449px; 
 margin-top: 150px; 
-margin-left: 20px; 
+margin-left: 359px
 }
 
 .about_title_text { 
 width: 291px; 
 height: 47px; 
-top:3px; 
+padding-top:3px; 
 font-family: Raleway; 
 font-weight: 700; 
 font-size: 40px; 
 line-height: 100%; 
 letter-spacing: 0px;
 text-transform: uppercase;
-gap: 15px;
 } 
 
 .about_text-paragraph_upper {
