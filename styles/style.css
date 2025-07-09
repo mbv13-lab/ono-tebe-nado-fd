@@ -1,6 +1,6 @@
 .header {
 max-width: 1100px;
-min-height: 293px;
+min-height: 293px;;
 display: grid;
 grid-template-columns: 1fr min-content 1fr;
 align-items: center;
@@ -34,7 +34,7 @@ gap: 31px;
 display: inline;
 }
 
-.header_links-list-item-no-bullit {
+.header_links-list-item-no-bullit  {
 list-style-type: none;
 gap: 28px;
 }
@@ -62,7 +62,7 @@ display: block;
 max-width: 240px;
 margin-right: 25px;
 padding-bottom: 10px;
-margin-top: 20px;
+margin-top: 20px ;
 }
 
 .address_link {
@@ -246,8 +246,8 @@ margin-top: 27px;
 position: absolute;
 background-color: rgb(0,0,0,0.6);
 inset: 0;
-
 }
+
 .lots_card-list-item {
 width: 334px;
 min-height: 596px;
@@ -449,26 +449,30 @@ margin: 300px 91px;
 }
 
 .footer_address {
-width: 260px;
-min-height: 98px;
+min-width: 260px;
+display: block;
 padding-left: 90px;
-border-width: 1px;
 margin-bottom: auto;
-line-height: 1.5em;
-font-style: normal;
-letter-spacing: 0px;
+}
+
+.footer_address_link {
+text-transform: lowercase;
 font-size: 18px;
 text-underline-offset: 4px;
 font-family: Raleway;
 font-weight: 400;
+letter-spacing: 0px;
 text-decoration-thickness: 1px;
+font-style: normal;
 }
 
-.footer_address_link {
-width: 264px;
-height: 24px;
-border: 1px;
-text-transform: lowercase;
+.footer_address_text {
+font-size: 18px;
+text-underline-offset: 4px;
+font-family: Raleway;
+font-weight: 400;
+letter-spacing: 0px;
+text-decoration-thickness: 1px;
 font-style: normal;
 }
 
@@ -506,8 +510,7 @@ line-height: 1.2em;
 }
 
 .footer_social-list {
-width: 48px;
-height: 48px;
+width: 240px;
 top: 1px;
 gap: 48px;
 display: flex;
@@ -516,4 +519,10 @@ justify-content: flex-end;
 justify-self: end;
 margin-bottom: auto;
 margin-right: 15px;
+list-style-type: none;
+}
+
+.footer_social-list-item {
+width: 48px;
+height: 48px;
 }
